@@ -1,0 +1,8 @@
+How to run the Docker Image
+-------------------------------------------------
+Before you run the Docker Command Make sure You have downloaded the Docker software in your machine 
+And it is up and Running
+
+Then Navigate to the folder where the .yml files are present and then run the below command
+docker compose -f docker-compose-postgres.yml up
+docker compose -f docker-compose-h2.yml up
